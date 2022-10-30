@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <title>Car Rental Website</title>
+    <!--link to css-->
+    <link rel="stylesheet" href="style.css" />
+    <!--box icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- header-->
+    <header>
+      <a href="index.html#home" class="logo"
+        ><img src="img/logo.png" alt=""
+      /></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#ride">Rent</a></li>
+        <li><a href="index.html#services">Cars</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+        <li><a href="index.html#locate">Locations</a></li>
+      </ul>
+      <div class="header-btn">
+        <a href="#" class="sign-up">Sign Up</a>
+        <a href="login.html" class="sign-in">Sign In</a>
+      </div>
+    </header>
+    <!-- home-->
+    <section class="home" id="home">
+      <div class="text">
+        <h1><span>Travel</span><br />from point<br />A to Z</h1>
+        <p>
+          Choose the enviornmental conscious<br />way with us at AZoom. Because
+          we care
+        </p>
+        <div class="app-stores">
+          <img src="img/ios.png" alt="" />
+          <img src="img/512x512.png" alt="" />
+        </div>
+      </div>
+
+      <div class="form-container">
+        <form action="">
+          <div class="input-box">
+            <span>Location</span>
+            <select name="" id="" placeholder="Search Places">
+              <option value="Clementi">Clementi</option>
+              <option value="Paya Lebar">Paya Lebar</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span>Car</span>
+            <select name="" id="" placeholder="">
+              <option value="Tesla Model 3">Tesla Model 3</option>
+              <option value="Hyundai Ioniq 5">Hyundai Ioniq 5</option>
+              <option value="Ford Mustang Mach-E">Ford Mustang Mach-E</option>
+              <option value="Polestar 2">Polestar 2</option>
+              <option value="Kia EV6">Kia EV6</option>
+              <option value="BMW i4">BMW i4</option>
+              <option value="Fiat 500">Fiat 500</option>
+              <option value="Mini Electric">Mini Electric</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span>Pick-Up Date</span>
+            <input type="date" name="" id="" />
+          </div>
+          <div class="input-box">
+            <span>Return Date</span>
+            <input type="date" name="" id="" />
+          </div>
+          <a href="checkout.html" type="submit" name="" id="" class="btn"
+            >Submit</a
+          >
+        </form>
+      </div>
+    </section>
+    <!--about -->
+    <section class="about" id="about">
+      <div class="heading">
+        <span>About Us</span>
+        <h1>Going <span>Green</span> with EV</h1>
+      </div>
+      <div class="about-container">
+        <div class="about-img">
+          <img src="img/about.png" alt="" />
+        </div>
+        <div class="about-text">
+          <span>AZoom Car Rental</span>
+          <p>
+            Here at AZoom Car Rental, we specializes in renting electric cars
+            for the public. We have an attractive range of electric cars
+            available to suit different needs and occasions for our
+            environmentally conscious customers.
+          </p>
+          <p>
+            By choosing to drive an EV you are helping to reduce harmful air
+            pollution from exhaust emissions. An electric car has zero
+            greenhouse emissions because it relies on a battery to power its
+            motor and does not burn any fuel internally. It also requires less
+            of the more harmful, contaminating liquids like engine oil and
+            coolant fluids.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <!--ride-->
+    <section class="ride" id="ride">
+      <div class="heading">
+        <span>How It Works</span>
+        <h1>Rent With 3 Easy Steps</h1>
+      </div>
+      <div class="ride-container">
+        <div class="box">
+          <i class="bx bxs-map"></i>
+          <h2>Pick A Location</h2>
+          <p>
+            AZoom Car Rental has two branches located in town and you will be
+            able to pick up the reserved car and return the car at a designated
+            car park.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="bx bx-car"></i>
+          <h2>Choose Your Ride</h2>
+          <p>
+            Choose from our range of electric cars available for your
+            transportation needs. No matter the occasion, we got you covered.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="bx bx-calendar-star"></i>
+          <h2>Reserve To Confirm</h2>
+          <p>
+            Once you have selected your vehicle of choice, you may choose a date
+            to rent. The rental period can be daily, weekly or monthly depending
+            on your needs.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- services-->
+    <section class="services" id="services">
+      <div class="heading">
+        <span>Best Services</span>
+        <h1>
+          Explore Our Top Deals <br />
+          From Top Rated Dealers
+        </h1>
+      </div>
+      <div class="services-container">
+        <div class="box">
+          <div class="box-img">
+            <img src="img/car1.png" alt="" />
+          </div>
+          <p>2019</p>
+          <h3>Tesla Model 3</h3>
+          <a href="checkout.html" class="btn">Rent Now</a>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="img/car2.png" alt="" />
+          </div>
+          <p>2022</p>
+          <h3>Hyundai Ioniq 5</h3>
+          <a href="checkout.html" class="btn">Rent Now</a>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="img/car3.png" alt="" />
+          </div>
+          <p>2020</p>
+          <h3>Ford Mustang Mach-E</h3>
+          <a href="checkout.html" class="btn">Rent Now</a>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="img/car4.png" alt="" />
+          </div>
+          <p>2020</p>
+          <h3>Polestar 2</h3>
+          <a href="checkout.html" class="btn">Rent Now</a>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="img/car5.png" alt="" />
+          </div>
+          <p>2022</p>
+          <h3>Kia EV6</h3>
+          <a href="checkout.html" class="btn">Rent Now</a>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="img/car6.png" alt="" />
+          </div>
+          <p>2021</p>
+          <h3>BMW i4</h3>
+          <a href="checkout.html" class="btn">Rent Now</a>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="img/car7.png" alt="" />
+          </div>
+          <p>2020</p>
+          <h3>Fiat 500</h3>
+          <a href="checkout.html" class="btn">Rent Now</a>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="img/car8.png" alt="" />
+          </div>
+          <p>2020</p>
+          <h3>Mini Electric</h3>
+          <a href="checkout.html" class="btn">Rent Now</a>
+        </div>
+      </div>
+    </section>
+    <!--reviews-->
+    <section class="reviews" id="reviews">
+      <div class="heading">
+        <span>Reviews</span>
+        <h1>Our Customers Experience</h1>
+      </div>
+      <div class="reviews-container">
+        <div class="box">
+          <div class="rev-img">
+            <img src="img/rev1.jpg" alt="" />
+          </div>
+          <h2>Lee Hsien Loong</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            I brought my wife, Ho Ching, for a picnic at Marina Barrage on our
+            wedding anniversary. My wife loves the Fiat series ever since she
+            was young. Hence, I decided to rent the Fiat 500 on her birthday and
+            she LOVED it! Next time, i'll rent the Tesla Model 3 which my son is
+            a huge fan of!
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="rev-img">
+            <img src="img/rev2.jpg" alt="" />
+          </div>
+          <h2>Lawrence Wong</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            As an environmentally conscious person, i refused to drive a car.
+            That was till my friend told me about the Electrical Cars that AZoom
+            provides. I decided to give it a try during one of the weekends out
+            with my family. The EV felt like a normal engine powered car and we
+            loved it!
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="rev-img">
+            <img src="img/rev3.jpg" alt="" />
+          </div>
+          <h2>Josephine Teo</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            I fell in love with the BMW i4 as soon as it was launched. However,
+            i could not afford it with the COE prices nowadays. Luckily, i
+            stumbled upon AZoom Car Rental!. AZoom provides attractive and
+            affordable prices which allowed me to drive the car of my dream
+            without burning a hole in my pocket!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--locate -->
+    <section class="locate" id="locate">
+      <div class="heading">
+        <h1>Locate Us</h1>
+      </div>
+      <div class="locate-container">
+        <div class="clementi">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.3846836213957!2d103.76193931677221!3d1.3138585784752352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a8df09c2e33%3A0xcd5d745bda41784d!2sWan%20Ngian%20Choon%20Medical%20Hall%20%26%20Trading!5e0!3m2!1sen!2ssg!4v1666954834188!5m2!1sen!2ssg"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="clementi-text">
+          <span>AZoom Car Rental: Clementi</span>
+          <p>
+            Address: 432 Clementi Ave 3, Singapore 120432 <br />Opening
+            Days:Monday to Sunday, except Public Holidays <br />Opening Hours:
+            10am to 10pm <br />Tel: +65 6215 9402
+          </p>
+        </div>
+        <div class="paya-lebar">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7645281384025!2d103.88972200252995!3d1.3168858168991022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x649068b0ecabb2cb!2zMcKwMTknMTIuMyJOIDEwM8KwNTMnMzYuNyJF!5e0!3m2!1sen!2ssg!4v1666955442573!5m2!1sen!2ssg"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="paya-lebar-text">
+          <span>AZoom Car Rental: Paya Lebar</span>
+          <p>
+            Address: 801 Geylang Ave 5, Singapore 409801 <br />Opening
+            Days:Monday to Sunday, except Public Holidays <br />Opening Hours:
+            10am to 10pm <br />Tel: +65 6215 9524
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--newsletter-->
+    <section class="newsletter">
+      <h2>Subscribe To Newsletter</h2>
+      <div class="box">
+        <input type="text" placeholder="Enter Your Email..." />
+        <a href="#" class="btn">Subscribe</a>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-container container">
+        <div class="footer-box">
+          <a href="#" class="logo">Car<span>Point</span></a>
+          <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Page</h3>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Ride</a>
+          <a href="#">Services</a>
+          <a href="#">Reviews</a>
+        </div>
+        <div class="footer-box">
+          <h3>Legal</h3>
+          <a href="#">Privacy</a>
+          <a href="#">Refund Policy</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <span>Paya Lebar</span>
+          <span>Clementi</span>
+        </div>
+      </div>
+    </section>
+
+    <!--scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Link to JS-->
+    <script src="main.js"></script>
+  </body>
+</html>

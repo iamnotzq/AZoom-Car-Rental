@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login_style.css" />
+    <!--box icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- header-->
+    <header>
+      <a href="index.html#home" class="logo"
+        ><img src="img/logo.png" alt=""
+      /></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#ride">Rent</a></li>
+        <li><a href="index.html#services">Cars</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+        <li><a href="index.html#locate">Locations</a></li>
+      </ul>
+      <div class="header-btn">
+        <a href="#" class="sign-up">Sign Up</a>
+        <a href="login.html" class="sign-in">Sign In</a>
+      </div>
+    </header>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required />
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required />
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login" />
+        <div class="signup_link">Not a member? <a href="#">Signup</a></div>
+      </form>
+    </div>
+    <!--scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Link to JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
